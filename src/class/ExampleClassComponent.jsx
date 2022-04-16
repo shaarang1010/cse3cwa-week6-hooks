@@ -19,7 +19,7 @@ class ExampleComponent extends Component {
   };
 
   /**
-   * @param {number} id - The date
+   * @param {number} id - The id of the product
    */
   getProductById = async (id) => {
     const productDetails = await fetch(

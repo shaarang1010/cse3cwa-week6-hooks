@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import UserContext from "../../Context/UserContext";
+import UserContext from "../Context/UserContext";
 import { Card } from "react-bootstrap";
 
 const Profile = () => {

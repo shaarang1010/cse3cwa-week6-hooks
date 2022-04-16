@@ -3,6 +3,7 @@ import "./App.css";
 import ExampleComponent from "./hooks/HooksExample";
 import UserProvider from "./hooks/Context/providers/UserProvider";
 import LoginTest from "./hooks/LoginTest";
+import MemoExample from "./hooks/memo/MemoExample";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <ExampleComponent /> */}
       <UserProvider>
         {/* <ExampleComponent /> */}
-        <LoginTest />
+        {/* <LoginTest /> */}
+        <MemoExample />
       </UserProvider>
     </div>
   );
